@@ -6,7 +6,7 @@
 
 
 echo "Enter a positive number:"
-read number
+read -r number
 
 for ((i=1; i<=number; i++)); do
     if (( i % 2 == 0 )); then
